@@ -20,7 +20,7 @@ export const Card: React.FC<ItemType> = ({strDrink, strDrinkThumb, idDrink, sort
     }
 
     return (
-        <div className="border-2 m-2 w-52 h-60 relative">
+        <div className="border-2 m-2 w-52 h-60 relative hover:border-green-500">
             <img className='pt-8' src={strDrinkThumb} alt="pic" />
             <p className='absolute bg-white w-full bottom-full translate-y-full text-center text-emerald-800'>{strDrink}</p>
             <div className="absolute w-full mb-4 flex justify-end m-auto translate-y-2/3 top-3/4 ">

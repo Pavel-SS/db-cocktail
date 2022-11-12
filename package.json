@@ -1,8 +1,8 @@
 {
-  "name": "db-movies",
+  "name": "db-cocktail",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Pavel-SS.github.io/db-movies",
+  "homepage": "https://Pavel-SS.github.io/db-cocktail",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",

@@ -13,7 +13,7 @@ export const CardsList = () => {
 
     useEffect(()=>{
         dispatch(setItemThunk)
-    },[])
+    },[dispatch])
 
     const handlerFavorit = () => {
         setToggle(!toggle)
